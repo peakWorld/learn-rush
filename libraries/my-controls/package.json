@@ -1,0 +1,12 @@
+{
+  "name": "my-controls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

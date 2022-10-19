@@ -1,4 +1,4 @@
-const abc = 1
+const abc = 1;
 export function test() {
-  console.log('rush...', abc)
+  console.log('rush...', abc);
 }

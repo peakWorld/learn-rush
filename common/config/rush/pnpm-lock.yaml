@@ -1,0 +1,53 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@rush-temp/my-app': file:./projects/my-app.tgz
+  '@rush-temp/my-controls': file:./projects/my-controls.tgz
+  '@rush-temp/my-toolchain': file:./projects/my-toolchain.tgz
+  dayjs: ~1.11.5
+
+dependencies:
+  '@rush-temp/my-app': file:projects/my-app.tgz
+  '@rush-temp/my-controls': file:projects/my-controls.tgz
+  '@rush-temp/my-toolchain': file:projects/my-toolchain.tgz
+  dayjs: 1.11.5
+
+packages:
+  /dayjs/1.11.5:
+    resolution:
+      {
+        integrity: sha512-CAdX5Q3YW3Gclyo5Vpqkgpj8fSdLQcRuzfX6mC6Phy0nfJ0eGYOeS7m4mt2plDWLAtA4TqTakvbboHvUxfe4iA==
+      }
+    dev: false
+
+  file:projects/my-app.tgz:
+    resolution:
+      {
+        integrity: sha512-v68AkIxcmS2tquyckr30Pdz6sCGBW2A5ENYomGC68jYme7x2UWpqGKSY3yDBzLVTxccyHXgEQ6WWrYc454j7FA==,
+        tarball: file:projects/my-app.tgz
+      }
+    name: '@rush-temp/my-app'
+    version: 0.0.0
+    dev: false
+
+  file:projects/my-controls.tgz:
+    resolution:
+      {
+        integrity: sha512-+U4tePeBBDnTDQJt+bOLmvsgF3hw44wGohP3AvKG6rV4v3xLa9X/vOecnMAozQLxcxoL5vqpt95ik//bAv3Wtg==,
+        tarball: file:projects/my-controls.tgz
+      }
+    name: '@rush-temp/my-controls'
+    version: 0.0.0
+    dev: false
+
+  file:projects/my-toolchain.tgz:
+    resolution:
+      {
+        integrity: sha512-mT0dzF0G3VS4VlU6Im2qcoQJycjhi8QKOJClUkTFc8wdTgH40kG1OEgN2ux5iAoMI6FFPSXKyUzuKaz7iQgwWA==,
+        tarball: file:projects/my-toolchain.tgz
+      }
+    name: '@rush-temp/my-toolchain'
+    version: 0.0.0
+    dependencies:
+      dayjs: 1.11.5
+    dev: false
